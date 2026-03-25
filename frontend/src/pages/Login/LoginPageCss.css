@@ -1,0 +1,109 @@
+/* LoginPage.css */
+
+/* Fundo da tela inteira com um gradiente amarelo suave */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FFF9C4 0%, #FFECB3 100%); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Cartão branco onde ficam os inputs */
+.login-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(255, 152, 0, 0.15); /* Sombra levemente alaranjada */
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento automático entre os elementos */
+    border-top: 5px solid #FF9800; /* Detalhe laranja no topo */
+}
+
+.login-card h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.login-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos campos de digitação */
+.login-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+/* Efeito laranja/amarelo ao clicar no input */
+.login-input:focus {
+    outline: none;
+    border-color: #FFC107; 
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.2);
+}
+
+/* Botão principal (Login/Criar) */
+.btn-primary {
+    background-color: #FFC107; /* Amarelo vibrante */
+    color: #333; /* Texto escuro para contraste */
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Efeito laranja ao passar o mouse no botão */
+.btn-primary:hover {
+    background-color: #FF9800; /* Laranja */
+    color: #fff;
+}
+
+.btn-primary:active {
+    transform: scale(0.98); /* Efeito de "clique" para dentro */
+}
+
+/* Textos e botões de alternância de tela */
+.toggle-text {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 15px;
+}
+
+/* Botões que parecem links textuais ("Criar" / "Já tem conta?") */
+.btn-link {
+    background: none;
+    border: none;
+    color: #FF9800; /* Laranja */
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.btn-link:hover {
+    color: #F57C00; /* Laranja mais escuro */
+    text-decoration: underline;
+}

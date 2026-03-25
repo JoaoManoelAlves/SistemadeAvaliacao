@@ -1,5 +1,11 @@
+import { Routes,Route,BrowserRouter, } from "react-router-dom"
+import LoginPage from "./pages/Login/LoginPage"
 export default function App() {
   return(
-    <h1>Hello World</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }

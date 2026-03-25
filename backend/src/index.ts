@@ -3,7 +3,7 @@ import Fastify from 'fastify'
 const app = Fastify()
 
 app.get('/', async (request, reply) => {
-  return { hello: 'world' }
+  reply.send("hello world")
 })
 
 app.listen({ port: 3000 }, (err, address) => {
