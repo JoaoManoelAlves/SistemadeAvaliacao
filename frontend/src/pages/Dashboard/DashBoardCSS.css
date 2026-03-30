@@ -1,0 +1,21 @@
+.Corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CECECE;
+}
+.Principal{
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+.Coluna1{
+
+}
+.Coluna2{
+
+}
+.card{
+
+}
