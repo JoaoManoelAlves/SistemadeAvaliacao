@@ -1,3 +1,5 @@
+import dotenv from 'dotenv'
+dotenv.config()
 import Fastify from 'fastify'
 import {FastifyRequest, FastifyReply} from 'fastify'
 import { UserLogin } from './types/loginType.js'
