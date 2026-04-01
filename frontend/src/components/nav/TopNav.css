@@ -1,0 +1,22 @@
+.topnav {
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.topnav a.active {
+    color: #2563eb;
+    border-bottom: 3px solid #2563eb;
+}
+
+.topnav a:hover {
+    color: #2563eb;
+}

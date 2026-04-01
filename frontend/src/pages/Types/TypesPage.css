@@ -1,0 +1,101 @@
+.types-container {
+    width: 100%;
+}
+
+/* topo da página */
+
+.types-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.types-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* botão */
+
+.add-button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.add-button:hover {
+    background: #1d4ed8;
+}
+
+/* card */
+
+.type-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* header do card */
+
+.type-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.type-card-header h3 {
+    font-size: 18px;
+}
+
+/* ações */
+
+.type-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.edit {
+    background: none;
+    border: none;
+    color: #2563eb;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.delete {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* subtipos */
+
+.subtypes {
+    border-left: 3px solid #eee;
+    padding-left: 15px;
+}
+
+.subtype {
+    margin-bottom: 10px;
+}
+
+.subtype strong {
+    display: block;
+    font-size: 15px;
+}
+
+.subtype p {
+    color: #555;
+    font-size: 14px;
+}
