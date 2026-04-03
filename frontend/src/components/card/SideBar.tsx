@@ -3,6 +3,7 @@ import "./Sidebar.css";
 
 export default function Sidebar() {
     return (
+        //Era uma barra de mavegação do lado, mas substitui pelo o outro que ta na pasta nav, pode apagar, ao menos eu acho que não vai quebrar nada
         <div className="sidebar">
 
             <div className="sidebar-title">

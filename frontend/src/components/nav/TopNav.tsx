@@ -3,6 +3,8 @@ import "./TopNav.css";
 
 export default function TopNav() {
     return (
+
+        //nav mo daora que fica encima
         <div className="topnav">
 
             <NavLink to="/types"> Tipos</NavLink>

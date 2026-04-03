@@ -7,7 +7,7 @@ export default function DashboardLayout() {
         <div className="dashboard-container">
 
             <h1 className="dashboard-title">
-                Dashboard de Apresentações {/*TA faltando os modais, era a próxima coisa que ia mexer */}
+                Dashboard de Apresentações {/*Resolvi a parte dos modais */}
             </h1>
 
             <TopNav />

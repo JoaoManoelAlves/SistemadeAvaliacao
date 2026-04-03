@@ -7,7 +7,7 @@ import Presentations from "./pages/Presentations/PreesentationsPage";
 import Ranking from "./pages/Ranking/RankingPage";
 
 import DashboardLayout from "./layouts/DashboardLayout";
-
+//Mexi nas rotas, retirei aquelas com arquivos teste lá na pasta Routes, talvez apague ela, mas detalhes. E por fim coloquei só as necessárias.
 export default function App() {
   return (
     <BrowserRouter>
